@@ -117,6 +117,14 @@ footer a img{
   ul{
     display: none;
   }
+  nav.responsive ul{
+    display: block;
+  }
+  nav.responsive ul li{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+  }
   section{
     max-width: 576px;
     width: 90%;
