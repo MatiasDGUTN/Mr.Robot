@@ -4,20 +4,13 @@
 }
 body{
   background-color: #000;
-}
-header{
-  margin-top: 1%;
-  margin-right: 8%;
-  margin-left: 9%;
-  display: flex;
-  justify-content: space-between;
+  max-width: 1300px;
 }
 section{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
-
 /* ---------- etiquetas ---------- */
 a{
   text-decoration: none;
@@ -35,8 +28,17 @@ p{
   color: #fff;
   margin-bottom: 1%;
 }
-
-/* ---------- nav ---------- */
+/* ---------- header ---------- */
+header{
+  margin-top: 1%;
+  margin-right: 8%;
+  margin-left: 9%;
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  display: none;
+}
 nav ul{
   margin-top: 2%;
 }
@@ -52,7 +54,6 @@ nav ul li a{
 nav ul li a:hover{
   color: #bbb;
 }
-
 /* ---------- encabezado ---------- */
 img.encabezado{
   display: block;
@@ -60,7 +61,6 @@ img.encabezado{
   margin-left: auto;
   margin-right: auto;
 }
-
 /* ---------- sinopsis ---------- */
 article.sinopsis{
   width: 70%;
@@ -73,7 +73,6 @@ article.sinopsis img{
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-
 /* ---------- ficha tecnica---------- */
 }
 aside.datos{
@@ -84,7 +83,6 @@ aside.datos{
 aside.datos p{
   margin-top: 6%;
 }
-
 /* ---------- footer ---------- */
 footer{
   width: 100%;
@@ -101,59 +99,55 @@ footer a img{
   margin-right: 1.5rem;
 }
 
+/* ---------- mobile ---------- */
 @media screen and (max-width: 576px){
-.icon{
-    margin-top: 5%;
-    float: right;
-    display: block;
-}
-section{
-    max-width: 576px;
+  nav{
     width: 100%;
-}
-.principal{
-    height: 350px;
-    align-items: center;
-}
-h2{
-    font-size: 1.3rem;
-    padding-right: 20%;
-}
-.secundario{
-    margin-top: 1%;
-    display: block;
-}
-.secundario div{
-    width: 100%;
-}
-.secundario div img{
-    margin-bottom: 0.5%;
-}
-p{
-    font-size: 1.3rem;
-    padding: 2%;
-}
-footer{
-    justify-content: space-around;
-    height: 100px;
-}
-footer img{
-    max-width: 4rem;
-    padding-top: 0px;
-    margin-right: 0px;
-}
-nav{
-    width: 100%;
-}
-ul{
+  }
+  .logo{
     display: none;
-}
-nav.responsive ul{
+  }
+  .icon{
     display: block;
-}
-nav.responsive ul li{
-    display: block;
-    text-align: center;
-    padding: 1rem;
-}
+    float: center;
+  }
+  .icon-img{
+    max-width: 3rem;
+  }
+  ul{
+    display: none;
+  }
+  section{
+    max-width: 576px;
+    width: 90%;
+  }
+  p{
+    padding: 2%;
+  }
+  article.sinopsis{
+    width: 100%;
+    margin-top: 3%;
+  }
+  aside.datos{
+    width: 100%;
+    margin-top: 3%;
+  }
+  aside.datos p{
+    margin-top: 1%;
+  }
+  footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer img{
+    height: auto;
+    width: 100%;
+    max-width: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
 }
