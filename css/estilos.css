@@ -1,0 +1,261 @@
+*{
+  padding: 0;
+  margin: 0; 
+}
+body{
+  background-color: #000;
+  max-width: 1300px;
+}
+section{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ---------- etiquetas ---------- */
+a{
+  text-decoration: none;
+}
+h1{
+  display: none;
+}
+h2{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2%;
+}
+p{
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 1%;
+}
+/* ---------- header ---------- */
+header{
+  margin-top: 1%;
+  margin-right: 8%;
+  margin-left: 9%;
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  display: none;
+}
+nav ul{
+  margin-top: 2%;
+}
+#home-item{
+  display: none;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  font-size: 1.2rem;
+  color: #fff;
+  padding-right: 2rem;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+  color: #bbb;
+}
+/* ---------- home encabezado ---------- */
+img.encabezado{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ---------- sinopsis ---------- */
+article.sinopsis{
+  width: 70%;
+  margin-top: 3%;
+  float: left;
+}
+article.sinopsis img{
+  display: block;
+  max-width: 90%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+/* ---------- ficha tecnica---------- */
+}
+aside.datos{
+  width: 20%;
+  margin-top: 3%;
+  float: right;
+}
+aside.datos p{
+  margin-top: 6%;
+}
+/* ---------- personajes ---------- */
+.personajes{
+  text-align: center;
+}
+.personajes img{
+  width: 300px;
+  height: 169px;
+}
+#angela{
+  text-align: center;
+}
+#angela div{
+  justify-content: space-between;
+  display: inline;
+}
+#angela img{
+  width: 500px;
+  height: 300px;
+}
+#angela p{
+  width: 30%;
+  text-align: left;
+}
+#darlene{
+  text-align: center;
+}
+#darlene img{
+  width: 500px;
+  height: 300px;
+}
+#dominique{
+  text-align: center;
+}
+#dominique img{
+  width: 500px;
+  height: 300px;
+}
+#elliot{
+  text-align: center;
+}
+#elliot img{
+  width: 500px;
+  height: 300px;
+}
+#fernando{
+  text-align: center;
+}
+#fernando img{
+  width: 500px;
+  height: 300px;
+}
+#joanna{
+  text-align: center;
+}
+#joanna img{
+  width: 500px;
+  height: 300px;
+}
+#mr_robot{
+  text-align: center;
+}
+#mr_robot img{
+  width: 500px;
+  height: 300px;
+}
+#phillip{
+  text-align: center;
+}
+#phillip img{
+  width: 500px;
+  height: 300px;
+}
+#tyrell{
+  text-align: center;
+}
+#tyrell img{
+  width: 500px;
+  height: 300px;
+}
+#whiterose{
+  text-align: center;
+}
+#whiterose img{
+  width: 500px;
+  height: 300px;
+}
+/* ---------- galeria ---------- */
+.galeria{
+  text-align: center;
+}
+.galeria img{
+  width: 300px;
+  height: 169px;
+}
+/* ---------- footer ---------- */
+footer{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a img{
+  height: auto;
+  width: 100%;
+  max-width: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+/* ---------- mobile ---------- */
+@media screen and (max-width: 576px){
+  nav{
+    width: 100%;
+  }
+  .logo{
+    display: none;
+  }
+  .icon{
+    display: block;
+    float: center;
+  }
+  .icon-img{
+    max-width: 3rem;
+  }
+  ul{
+    display: none;
+  }
+  nav.responsive ul{
+    display: block;
+  }
+  nav.responsive #home-item{
+    display: block;
+  }
+  nav.responsive ul li{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+  }
+  section{
+    max-width: 576px;
+    width: 90%;
+  }
+  p{
+    padding: 2%;
+  }
+  article.sinopsis{
+    width: 100%;
+    margin-top: 3%;
+  }
+  aside.datos{
+    width: 100%;
+    margin-top: 3%;
+  }
+  aside.datos p{
+    margin-top: 1%;
+  }
+  footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer img{
+    height: auto;
+    width: 100%;
+    max-width: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+}

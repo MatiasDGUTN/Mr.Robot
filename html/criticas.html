@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/home/icono.jpg">
+    <link href="../css/estilos.css" type="text/css" rel="stylesheet">
+    <title>Mr. Robot</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="../index.html"> <img src="../images/home/logo.jpg" alt="Logo Mr. Robot"></a>
+      </div>
+      <nav id="navegador">
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+          <img class="icon-img" src="../images/home/menu.jpg" alt="menu"></i>
+        </a>
+        <ul>
+          <li id="home-item"><a href="../index.html">Home</a></li>
+          <li><a href="criticas.html">Criticas</a></li>
+          <li><a href="episodios.html">Episodios</a></li>
+          <li><a href="personajes.html">Personajes</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      
+    </section>
+    <footer>
+      <a href="mailto:mgonzalez781@alumnos.frh.utn.edu.ar"> <img src="../images/redes/gmail.jpg" alt="Gmail"></a>
+      <a href="https://github.com/MatiasDGUTN/Mr.Robot"> <img src="../images/redes/github.jpg" alt="Github"></a>
+    </footer>
+    <script type="text/javascript">
+      function toggleMenu(){
+        var x = document.getElementById("navegador");
+        if (x.className === ""){
+          x.className += "responsive";
+        } else {
+          x.className = "";
+        }
+      }
+    </script>
+  </body>
+</html>
