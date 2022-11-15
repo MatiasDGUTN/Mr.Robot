@@ -15,7 +15,7 @@
       </div>
       <nav id="navegador">
         <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-          <img class="icon-img" src="../images/home/menu.jpg" alt="menu"></i>
+          <img class="icon-img" src="../images/home/menu.jpg" alt="menu">
         </a>
         <ul>
           <li id="home-item"><a href="../index.html">Home</a></li>
@@ -27,64 +27,17 @@
         </ul>
       </nav>
     </header>
-    <section>
-      <article>
-        <h1>Mr. Robot</h1>
-        <img class="encabezado" src="../images/home/encabezado.jpg" alt="Imagen de encabezado">
-      </article>
-      <article class="sinopsis">
-        <h2>Sinopsis</h2>
-        <p>
-          La serie gira en torno a <strong>Elliot Alderson</strong>, 
-          un joven que trabaja como <em>ingeniero de seguridad</em> 
-          en la empresa neoyorquina de seguridad informática <strong>Allsafe.</strong>
-        </p>
-        <p>
-          Constantemente luchando con el <em>trastorno de ansiedad social</em>,
-          <em>trastorno de identidad disociativo</em> y 
-          <em>depresión clínica</em>, 
-          el proceso de pensamiento de <strong>Elliot</strong>
-          parece fuertemente influido por la paranoia y el delirio.
-        </p>
-        <p>
-          Se conecta con personas <em>hackeándolas</em>, 
-          lo que a menudo le lleva a actuar como <em>vigilante clandestino de internet</em>.
-        </p>
-        <p>
-          Es reclutado por <strong>Mr. Robot</strong>, 
-          un misterioso <em>anarquista insurreccional</em>, 
-          uniéndose a su equipo de <em>hacktivistas</em> 
-          conocido como <strong>fsociety</strong>. 
-        </p>
-        <p>
-          Una de sus misiones es cancelar todas las deudas de crédito destruyendo los datos de
-          una de las corporaciones más grandes del mundo, <strong>E Corp</strong>
-          (que Elliot percibe como Corporación Malvada), que también es el principal cliente de <strong>Allsafe</strong>.
-        </p>
-        <img src="../images/home/fsociety.jpg" alt="Imagen de Elliot Anderson">
-      </article>
-      <aside class="datos">
-        <h2>Datos</h2>
-        <p>Titulo: <strong>Mr. Robot</strong></p>
-        <p>Géneros: <em>Crimen</em>, <em>Drama</em></p>
-        <p>Escritor: Sam Esmail</p>
-        <p>Director: Sam Esmail</p>
-        <p>Banda sonora: Mac Quayle</p>
-        <p>Elenco:<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Rami Malek<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Carly Chaikin<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Portia Doubleday<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Martin Wallström<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Christian Slater<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Michael Cristofer<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Stephanie Corneliussen<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Grace Gummer<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;BD Wong<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Elliot Villar
-        </p>
-        <p>Temporadas: 4</p>
-        <p>Episodios totales: 45</p>
-      </aside>
+    <section class="contacto">
+      <h2>Contacto</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" name="nombre_usuario" required="true"/>
+        <label for="mail">Correo electrónico</label>
+        <input id="mail" type="email" name="mail_usuario" required="true"/>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje_usuario" required="true"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
     </section>
     <footer>
       <a href="mailto:mgonzalez781@alumnos.frh.utn.edu.ar"> <img src="../images/redes/gmail.jpg" alt="Gmail"></a>

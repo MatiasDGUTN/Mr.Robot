@@ -86,6 +86,32 @@ aside.datos{
 aside.datos p{
   margin-top: 6%;
 }
+/* ---------- criticas ---------- */
+.criticas p{
+  margin-bottom: 2%;
+}
+.criticas img{
+  display: block;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ---------- episodios ---------- */
+.episodios h2{
+  margin: 3%;
+}
+.episodios .tabla{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.episodios table{
+  font-size: 1.2rem;
+  text-align: center;
+  color: #fff;
+}
+.episodios tbody tr th{
+}
 /* ---------- personajes ---------- */
 .personajes{
   text-align: center;
@@ -94,91 +120,51 @@ aside.datos p{
   width: 300px;
   height: 169px;
 }
-#angela{
+.personaje{
   text-align: center;
 }
-#angela div{
-  justify-content: space-between;
-  display: inline;
-}
-#angela img{
+.personaje img{
   width: 500px;
   height: 300px;
 }
-#angela p{
-  width: 30%;
+.personaje p{
+  width: 500px;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
 }
-#darlene{
+/* ---------- contacto ---------- */
+.contacto{
+  margin-top: 3%;
   text-align: center;
+  float: center;
 }
-#darlene img{
-  width: 500px;
-  height: 300px;
+.contacto form{
+  margin-top: 3%;
 }
-#dominique{
-  text-align: center;
+.contacto label{
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  font-size: 1.3rem;
+  color: #fff;
 }
-#dominique img{
-  width: 500px;
-  height: 300px;
+.contacto input{
+  width: 18rem;
+  font-size: 1.05rem;
 }
-#elliot{
-  text-align: center;
+.contacto textarea{
+  height: 6rem;
+  width: 18rem;
+  font-size: 1.05rem;
 }
-#elliot img{
-  width: 500px;
-  height: 300px;
-}
-#fernando{
-  text-align: center;
-}
-#fernando img{
-  width: 500px;
-  height: 300px;
-}
-#joanna{
-  text-align: center;
-}
-#joanna img{
-  width: 500px;
-  height: 300px;
-}
-#mr_robot{
-  text-align: center;
-}
-#mr_robot img{
-  width: 500px;
-  height: 300px;
-}
-#phillip{
-  text-align: center;
-}
-#phillip img{
-  width: 500px;
-  height: 300px;
-}
-#tyrell{
-  text-align: center;
-}
-#tyrell img{
-  width: 500px;
-  height: 300px;
-}
-#whiterose{
-  text-align: center;
-}
-#whiterose img{
-  width: 500px;
-  height: 300px;
-}
-/* ---------- galeria ---------- */
-.galeria{
-  text-align: center;
-}
-.galeria img{
-  width: 300px;
-  height: 169px;
+.contacto button{
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
 }
 /* ---------- footer ---------- */
 footer{
@@ -243,6 +229,23 @@ footer a img{
   aside.datos p{
     margin-top: 1%;
   }
+  .criticas img{
+    width: 350px;
+  }
+  .episodios .tabla{
+    width: 100%;
+  }
+  .personaje img{
+    width: 350px;
+    height: 180px;
+  }
+  .personaje p{
+    width: 350px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
   footer{
     width: 100%;
     height: 100px;
@@ -257,5 +260,4 @@ footer a img{
     margin-left: 1rem;
     margin-right: 1rem;
   }
-
 }
